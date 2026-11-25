@@ -1,7 +1,7 @@
 from pathlib import Path
 
 import pandas as pd
-import plotly.graph_objects as go
+#import plotly.graph_objects as go
 import streamlit as st
 from spider_plot import create_spider_plot
 
