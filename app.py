@@ -15,7 +15,9 @@ tt_columns = [
     f"TY-GT101-1702.PV__TT{number:02d}"
     for number in range(1, 18)  
 ]
-st.write(tt_columns)
+#st.write(tt_columns)
 
 spider_plot_button = st.button("Create Spider Plot")
-create_spider_plot(df,tt_columns)     
+create_spider_plot(df,tt_columns)  
+
+
